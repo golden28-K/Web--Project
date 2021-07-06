@@ -1,0 +1,482 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* css for header  */
+
+.header {
+    height: 90px;
+    width: 100%;
+    /* background-color: rgba(16, 128, 234, 1); */
+    display: flex;
+    justify-content: center;
+    position: fixed;
+}
+
+.container {
+    width: 90%;
+    /* background-color: red; */
+    display: flex;
+}
+
+.header_container {
+    justify-content: space-between;
+}
+
+.logo {
+    height: 70px;
+    width: 25%;
+    /* background-color: yellow; */
+    font-size: 34px;
+    font-family: Segoe UI;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    line-height: 70px;
+}
+
+.nav {
+    height: 75px;
+    width: 35%;
+    /* background-color: teal; */
+    display: flex;
+}
+
+.nav-item {
+    width: 18%;
+    height: 70px;
+    /*  background-color: grey;  */
+    font-family: Segoe UI;
+    text-align: center;
+    line-height: 70px;
+    color: white;
+    cursor: pointer;
+}
+
+.nav-item:hover {
+    background-color: white;
+    color: rgba(16, 128, 234, 1);
+}
+
+.banner {
+    height: 600px;
+    width: 100%;
+    background-color: grey;
+    background-image: url(./images/webb.jpg);
+    background-size: cover;
+}
+
+.overlay {
+    height: 600px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+}
+
+.banner_text {
+    height: 250px;
+    width: 50%;
+    background-color: rgba(16, 128, 234, 0.7);
+    font-family: segoe UI;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+}
+
+.banner_title {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.banner_desc {
+    margin-bottom: 30px;
+}
+
+.padd {
+    padding: 50px;
+    /* background-color: red; */
+}
+
+.banner_btn {
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: segoe ui;
+    border: 3px solid #efc9af;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.banner_btn:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #f4af1b;
+}
+
+
+/* css for services */
+
+.services {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #EFC9AF;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: segoe UI;
+    color: #104c91;
+}
+
+.services_container {
+    margin-top: 50px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.service {
+    height: 400px;
+    width: 47%;
+    background-color: rgba(236, 5, 5, 0.5);
+    display: flex;
+    margin-top: 20px;
+    border-radius: 12px;
+    border: 2px solid #1F8AC0;
+}
+
+.service_img {
+    width: 40%;
+    height: 400px;
+    /* background-color: blue; */
+    display: flex;
+    overflow: hidden;
+    border-radius: 12px;
+    border-right: 3px solid #1F8AC0;
+}
+
+.service_details {
+    width: 60%;
+    height: 400px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+}
+
+.service_padd {
+    padding: 20px;
+}
+
+.service_btn {
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    background-color: rgba(16, 128, 234, 0.9);
+    border-radius: 12px;
+    color: white;
+    font-weight: bold;
+    font-family: segoe ui;
+    border: none;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.service_title {
+    margin-bottom: 15px;
+}
+
+.service_desc {
+    margin-bottom: 30px;
+}
+
+
+/* css for about  */
+
+.about {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    background-color: #efc9af;
+    display: flex;
+    flex-direction: column;
+    font-family: segoe UI;
+    align-items: center;
+}
+
+.about_container {
+    margin-top: 30px;
+    background-color: rgba(16, 128, 234, 0.6);
+    padding: 10px;
+    line-height: 40px;
+    display: inline;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.start_text {
+    font-size: 40px;
+    font-weight: bold;
+    color: yellow;
+}
+
+
+/* css for highlights  */
+
+.highlight {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100% impotant;
+    background-color: #efc9af;
+    display: flex;
+    justify-content: center;
+    border: 2px solid #1F8AC0;
+}
+
+.highlight_container {
+    justify-content: space-between;
+}
+
+.high_ele {
+    width: 22%;
+    height: 230px;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Segoe UI;
+    text-align: center;
+    color: #1F8AC0;
+    border-radius: 8px;
+    transition: .3s;
+}
+
+.high_ele:hover {
+    transform: translateY(-8px);
+}
+
+.high_title {
+    font-size: 60px;
+}
+
+.high_desc {
+    font-size: 25px;
+}
+
+
+/* css for quote  */
+
+.quote {
+    height: 160px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 1);
+    display: flex;
+    justify-content: center;
+    font-family: Segoe UI;
+    color: white;
+}
+
+.quote_container {
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote_title {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.quote_btn {
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+    font-family: segoe ui;
+    border: none;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.quote_btn:hover {
+    transform: translateY(8px);
+    border: 4px solid white;
+    background-color: red;
+    color: white;
+}
+
+
+/* css for portfolio  */
+
+.portfolio {
+    /* padding-top: 40px; */
+    /* padding-bottom: 40px; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #e4e4e4;
+    font-family: segoe UI;
+}
+
+.portfolio_container {
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.project {
+    width: 25%;
+    height: 280px;
+    background-color: rgba(16, 128, 234, 0.6);
+    display: flex;
+    overflow: hidden;
+}
+
+.project_1 {
+    background-image: url('https://images.pexels.com/photos/1639729/pexels-photo-1639729.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+}
+
+.project_2 {
+    background-image: url('https://images.pexels.com/photos/189349/pexels-photo-189349.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+    align-items: flex-end;
+}
+
+.project_3 {
+    background-image: url('https://images.pexels.com/photos/315788/pexels-photo-315788.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+}
+
+.project_4 {
+    background-image: url('https://images.pexels.com/photos/4450334/pexels-photo-4450334.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+    align-items: flex-end;
+}
+
+.project_5 {
+    background-image: url('https://images.pexels.com/photos/2570139/pexels-photo-2570139.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+}
+
+.project_6 {
+    background-image: url('https://images.pexels.com/photos/2041540/pexels-photo-2041540.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+    align-items: flex-end;
+}
+
+.project_7 {
+    background-image: url('https://images.pexels.com/photos/674783/pexels-photo-674783.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+}
+
+.project_8 {
+    background-image: url('https://images.pexels.com/photos/995301/pexels-photo-995301.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+    align-items: flex-end;
+}
+
+.project_title {
+    color: white;
+    width: 100%;
+    height: 140px;
+    text-indent: 30px;
+    line-height: 200px;
+    background-color: rgba(16, 128, 234, 0.5);
+    cursor: pointer;
+    transition: .4s;
+}
+
+.project_title:hover {
+    height: 280px;
+}
+
+
+/* css for footer  */
+
+.footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_child {
+    height: 200px;
+    width: 25%;
+    /* background-color: gray; */
+    font-family: segoe UI;
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    margin-top: 40px;
+}
+
+li {
+    list-style-type: none;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.first {
+    font-size: 22px;
+}
+
+.footer_child_4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.social_container {
+    width: 80%;
+    justify-content: space-between;
+}
+
+.social_icon {
+    height: 50px;
+    width: 50px;
+    /* background-color: white; */
+    background-size: cover;
+    border-radius: 8px;
+    border: 2px solid black;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.social_icon:hover {
+    transform: translateY(-7px);
+}
+
+.si1 {
+    background-image: url('./images/s1.png');
+}
+
+.si2 {
+    background-image: url('./images/s2.png');
+}
+
+.si3 {
+    background-image: url('./images/s3.png');
+}
+
+.si4 {
+    background-image: url('./images/s4.png');
+}
